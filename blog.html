@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Blog - Ayam Geprek Kumlot UMS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="images/GK_logokumlot.png" rel="icon" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/GK_logokumlot.png"</a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">TENTANG KAMI</a></li>
+                        <li><a href="courses.html">MENU</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i>
+        
+        <!-----Header----->
+            </nav>
+            <h1>Our History and Journey</h1>
+        </section>
+
+        <!-----Blog Content----->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <div class="blog-left">
+                        <img src="images/CoverBlog.jpg">
+                        <h2>Makan Enak di Solo: Ayam Geprek Kumlot UMS, Andalan Mahasiswa: Nasi BIsa Ambil Sepuasnya</h2>
+                        <p>Solo, 24 Januari 2024 - Di tengah hiruk-pikuk kehidupan perkuliahan, para mahasiswa Universitas Sebelas Maret (UNS) dan Universitas Muhammadiyah Surakarta (UMS) memiliki tempat andalan untuk menikmati sajian lezat, yaitu di Ayam Geprek Kumlot. Warung yang tak pernah sepi pembeli ini telah menjadi primadona di kalangan mahasiswa, terutama di UMS. <br><br>Terletak di Jl. Menco Raya No.36E, Nilagraha, Gonilan, Kec. Kartasura, Kabupaten Sukoharjo, Ayam Geprek Kumlot UMS menjadi destinasi wajib bagi pencinta kuliner pedas. Dengan buka setiap hari dari pukul 09.00 hingga 21.00, warung ini menawarkan tidak hanya kelezatan Ayam Geprek, tetapi juga variasi menu yang menggoda selera.<br><br>Salah satu daya tarik utama warung ini adalah konsep "Nasi Bisa Ambil Sepuasnya." Dengan harga yang terjangkau, mulai dari Rp 7.000 untuk Ayam Geprek hingga Rp 10.000 untuk Ayam Geprek Bakar + Nasi, para pelanggan dapat menikmati hidangan favorit mereka tanpa khawatir akan dompet kosong.<br>Tidak hanya itu, Ayam Geprek Kumlot UMS juga menawarkan inovasi dengan menu Ayam Geprek Bakar yang memikat selera. Pelanggan dapat memilih apakah ingin ayamnya dibakar atau tidak, dengan tambahan bumbu bakar yang memberikan sentuhan manis pedas yang khas. Pilihan tambahan seperti jamur crispy, tahu, tempe, dan terong semakin melengkapi pengalaman kuliner di sini.<br><br>Tak hanya memanjakan lidah, Ayam Geprek Kumlot UMS juga menyediakan minuman segar dengan ukuran jumbo, seperti Es Teh, Es Jeruk, Es Nutrisari, dan Es Lemon Tea, yang menjadi penawar sempurna untuk rasa pedas menu utama.<br>Bagi para pecinta kuliner di Solo, Ayam Geprek Kumlot UMS tidak hanya sekadar warung makan, melainkan destinasi yang menggoda selera dan merajut kenangan manis di masa perkuliahan. Jadi, jangan lewatkan kesempatan untuk mencicipi kelezatan di warung ini dan nikmati sensasi kuliner yang tak terlupakan!<br><br>Sumber: Tribunsolo.com dengan perubahan</p>
+                        
+                        <div class="comment-box">
+                            <h3>Leave a comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="text" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your comment here"></textarea>
+                                <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Bussiness Analytics</span>
+                        <span>20</span>
+                    </div>
+                    <div>
+                        <span>Lorem Ipsum</span>
+                        <span>00</span>
+                    </div>
+                    <div>
+                        <span>Lorem Ipsum</span>
+                        <span>00</span>
+                    </div>
+                    <div>
+                        <span>Lorem Ipsum</span>
+                        <span>00</span>
+                    </div>
+                    <div>
+                        <span>Lorem Ipsum</span>
+                        <span>00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-----Footer----->
+        <footer>
+            &copy; 2024 Ayam Geprek Kumlot UMS. Semua hak dilindungi. | Ikuti Kami di<a href="https://www.instagram.com/ayamkumlot" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </footer>
+        
+        <!-----Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+
+    </body>
+</html>

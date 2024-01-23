@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Tentang Kami - Ayam Geprek Kumlot UMS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="images/GK_logokumlot.png" rel="icon" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/GK_logokumlot.png"</a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">TENTANG KAMI</a></li>
+                        <li><a href="courses.html">MENU</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i>
+        
+        <!-----Header----->
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <!-----About Us Content----->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Kami adalah Ayam Geprek Terbaik!</h1>
+                    <p>orem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten</p>
+                    <a href="blog.html" class="hero-btn red-btn">JELAJAHI SEKARANG</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/aboutus2.jpeg">
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-----Footer----->
+        <footer>
+            &copy; 2024 Ayam Geprek Kumlot UMS. Semua hak dilindungi. | Ikuti Kami di<a href="https://www.instagram.com/ayamkumlot" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </footer>
+        
+        <!-----Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+
+    </body>
+</html>

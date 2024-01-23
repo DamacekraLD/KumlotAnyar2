@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Menu - Ayam Geprek Kumlot</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="images/GK_logokumlot.png" rel="icon" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/GK_logokumlot.png"</a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">TENTANG KAMI</a></li>
+                        <li><a href="courses.html">MENU</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu"></i>
+        
+        <!-----Header----->
+            </nav>
+            <h1>Our Courses </h1>
+        </section>
+
+        <!-----KenapaKami----->
+        <section class="KenapaKami">
+            <h1>Kenapa Memilih Kami?</h1>
+            <p>Ayam Geprek Kumlot UMS</p>
+
+            <div class="row">
+                <div class="kenapakami-col">
+                    <h3>Enak</h3>
+                    <p>Rasakan sensasi rasa yang berbeda dengan Ayam Geprek lainnya</p>
+                </div>
+                
+                <div class="kenapakami-col">
+                    <h3>Murah</h3>
+                    <p>Harga yang terjangkau bagi para Mahasiswa dengan menu yang lengkap</p>
+                </div>
+
+                <div class="kenapakami-col">
+                    <h3>Terjangkau</h3>
+                    <p>Lokasi yang dekat dengan kampus UMS dan terjangkau untuk Mahasiwa kosan</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----Menu----->
+        <section class="menu">
+            <h1>Menu Kami</h1>
+            <p>Pilih salah satu menu Best Seller Kami</p>
+
+            <div class="row">
+                <div class="menu-col">
+                    <img src="images/AyamGeprek.jpg">
+                    <h3>Ayam Geprek Original</h3>
+                    <p>Ayam Krispi yang di Geprek dengan cabai segar</p>
+                </div>
+
+                <div class="menu-col">
+                    <img src="images/AyamGeprekBakar.jpg">
+                    <h3>Ayam Geprek Bakar</h3>
+                    <p>Ayam Krispi yang di Geprek dengan cabai segar lalu dibakar menggunakan Torch</p>
+                </div>
+
+                <div class="menu-col">
+                    <img src="images/EsTeh.jpg">
+                    <h3>Es Teh Jumbo</h3>
+                    <p>Es Teh dengan berukuran Jumbo dengan Teh Pilihan</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-----Footer----->
+        <footer>
+            &copy; 2024 Ayam Geprek Kumlot UMS. Semua hak dilindungi. | Ikuti Kami di<a href="https://www.instagram.com/ayamkumlot" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </footer>
+        
+        <!-----Javascript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+
+    </body>
+</html>
